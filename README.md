@@ -2,7 +2,7 @@
 # A brain object has methods that can control one or more lower level methods such as motors, muscles (and nerves)
 # brain methods are prefixed with process_
 
-class NotABrain < RuntimeError; end
+class NotBrain < RuntimeError; end
 
 module Brains    
   attr_accessor :brains
